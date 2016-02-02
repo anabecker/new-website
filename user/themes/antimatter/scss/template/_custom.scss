@@ -1,0 +1,249 @@
+// Your custom SCSS should be written here...
+
+.grav-lightslider {
+    .lSSlideOuter {
+        .lSPager.lSpg {
+            > li a {
+                z-index: 1;
+            }
+        }
+    }
+}
+
+#body > script:first-child + .grav-lightslider {
+  margin-top: -3rem;
+}
+
+#header #logo h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0;
+     text-transform: none; 
+    letter-spacing: -0.5px;
+    @include breakpoint(mobile-only){
+			opacity: 0;
+    }
+    @include breakpoint(tablet-range){
+			opacity: 0;
+    }
+}
+#header.scrolled #logo h3 {
+    color: #364679 !important;
+    opacity: 1;
+    font-size: 1.3rem !important;
+}
+
+h2{
+	font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+
+.modular .showcase{
+	background-color: transparent !important;
+	h1{
+		margin-top: 4rem !important;
+		font-size: 5rem !important;
+		@include breakpoint(mobile-only){
+			font-size: 4rem !important;		
+		}
+	}
+	p{
+		/*font-size: 1.2rem;*/
+	}
+}
+
+.clearfix{
+	width: 100%;
+	float: none;
+	clear: both;
+
+}
+
+a{
+	/*color: #E9DA1B;*/
+	/*color: #FF7045;*/
+	/*color: #F0552D;*/
+	color: #4D97C0;
+}
+
+h2 a{
+	color: $core-text;
+	/*text-decoration: underline;*/
+	border-bottom: 1px solid $core-text;
+		text-transform: none;
+		letter-spacing: -2px;
+
+}
+
+h1 + h2 {
+
+	font-family: $font-family-default;
+		text-transform: none;
+
+	    letter-spacing: -1px;
+	    font-size: 2.5rem;
+  		@include breakpoint(mobile-only){
+			font-size: 2rem ;		
+		}
+
+}
+
+.flush-top{
+	a{
+		color: #fff;
+	}
+}
+
+.callout{
+	background: #fff !important;
+	padding-top: 4rem !important;
+	padding-bottom: 4rem !important;
+		&:after{
+content: "";
+    width: 50%;
+    position: relative;
+    top: 3rem;
+    display: block;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+	}
+	.callout-container{
+		max-width: 1024px;	
+	}
+
+	h2{
+		margin-bottom: 0px;
+		font-family: "Playfair Display", serif;
+	}
+	h2 + h3 {
+	margin: 0.5rem 0 2rem 0;
+	font-size: 2rem;
+	@include breakpoint(tablet-range) {
+		font-size: 1.6rem;
+		text-align: center;
+	}
+	@include breakpoint(mobile-only) {
+		font-size: 1.5rem;
+		text-align: center;
+
+	}
+	line-height: 1;
+	text-align: left;
+	font-family: $font-family-default;
+	font-weight: 300;
+}
+
+}
+
+span.panel-activation{
+	display: none !important;
+}
+
+.nav-hide{
+	display: none;
+}
+.modular-row.features.big{
+	position: relative;
+  padding: 4rem 0 0rem;
+}
+
+.header-image #body .showcase.flush-top{
+	padding-top: 10%;
+	padding-bottom: 10%;
+/*	-webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);*/
+}
+
+
+
+.modular-row.features.big{
+/*	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);*/
+}
+
+/*.modular-row.features.big:before{
+content: '';
+    position: absolute;
+    left: 0;
+    top: -39px;
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    -webkit-transform: skewY(-1.8deg);
+    -moz-transform: skewY(-1.8deg);
+    -ms-transform: skewY(-1.8deg);
+    -o-transform: skewY(-1.8deg);
+    transform: skewY(-1.8deg);
+    -webkit-backface-visibility: hidden;
+}
+ .modular-row.features.big:after {
+		content: '';
+    position: absolute;
+    left: 0;
+    bottom: -39px;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    -webkit-transform: skewY(1.5deg);
+    -moz-transform: skewY(1.5deg);
+    -ms-transform: skewY(1.5deg);
+    -o-transform: skewY(1.5deg);
+    transform: skewY(1.5deg);
+    -webkit-backface-visibility: hidden;
+ }*/
+
+.contact{
+	background: $pre-bg;
+}
+
+.gallery{
+	background: $pre-bg;
+	position: relative;
+	padding-top: 30px;
+	margin-top: -1.4rem;
+	h2{
+		padding: 2rem 0 4rem;
+	}
+/*	&:before{
+	content: '';
+    position: absolute;
+    left: 0;
+    top: -39px;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    -webkit-transform: skewY(-1.5deg);
+    -moz-transform: skewY(-1.5deg);
+    -ms-transform: skewY(-1.5deg);
+    -o-transform: skewY(-1.5deg);
+    transform: skewY(-1.5deg);
+    -webkit-backface-visibility: hidden;
+	}*/
+/*	-webkit-clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);*/
+	text-align: center;
+	.gallery-image{
+		display: inline-block;
+		vertical-align: middle;
+		img{
+			max-width: 100%;
+		}
+		width: 25%;
+		padding: 0px 15px 15px;
+		&.img-10865871-10203322676612006-5171654137149828662-o-jpg, &.img-poster2horiz-jpg, &.img-z-03-1-png, &.img-z-03-2-png, &.img-z-07-png {
+    	width: 50%;
+    }
+    &.img-z-u1-png{
+    	width: 80%;
+    }
+       @include breakpoint(tablet-range) {
+          width: 33%;
+      }
+      @include breakpoint(mobile-only) {
+					width: 50%;
+      }
+	}
+}

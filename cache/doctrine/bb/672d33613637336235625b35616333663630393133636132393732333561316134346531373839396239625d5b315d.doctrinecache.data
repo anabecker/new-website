@@ -1,0 +1,23 @@
+1454986086
+s:907:"<div class="modular-row features ">
+    <h2>Contact</h2>
+    <div class="feature-items">
+               <div class="feature">
+                        <i class="fa fa-fw fa-twitter"></i>
+            <div class="feature-content icon-offset">
+                                                <a href="http://www.twitter.com/ana_becker" target="_blank">
+                                    <p>@ana_becker</p>
+                                    </a>
+                        </div>
+        </div>
+               <div class="feature">
+                        <i class="fa fa-fw fa-envelope-o"></i>
+            <div class="feature-content icon-offset">
+                                                <a href="mailto:anabdesigns@gmail.com" target="_blank">
+                                    <p>email</p>
+                                    </a>
+                        </div>
+        </div>
+        </div>
+</div>
+";

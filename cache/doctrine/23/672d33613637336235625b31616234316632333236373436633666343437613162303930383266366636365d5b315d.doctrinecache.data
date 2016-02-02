@@ -1,0 +1,37 @@
+1454988359
+s:1495:"<div class="modular-row features ">
+    <h2>Music</h2>
+    <div class="feature-items">
+               <div class="feature">
+                                   <a href="https://open.spotify.com/artist/0LopOYoaetA5Ezr5GvNULc" target="_blank">
+                                    <i class="fa fa-fw fa-music"></i>
+            <div class="feature-content icon-offset">
+                                    <h4>City Mice</h4>
+            
+                        <p>my band</p>
+                                    </a>
+                        </div>
+        </div>
+               <div class="feature">
+                                   <a href="http://www.fruitxflowers.com" target="_blank">
+                                    <i class="fa fa-fw fa-music"></i>
+            <div class="feature-content icon-offset">
+                                    <h4>Fruit & Flowers</h4>
+            
+                        <p>current band</p>
+                                    </a>
+                        </div>
+        </div>
+               <div class="feature">
+                                   <a href="http://www.songsformuses.com" target="_blank">
+                                    <i class="fa fa-fw fa-music"></i>
+            <div class="feature-content icon-offset">
+                                    <h4>Songs for Muses</h4>
+            
+                        <p>solo project</p>
+                                    </a>
+                        </div>
+        </div>
+        </div>
+</div>
+";

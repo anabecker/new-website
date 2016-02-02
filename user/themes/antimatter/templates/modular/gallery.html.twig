@@ -1,0 +1,20 @@
+<div class="modular-row gallery {{ page.header.class}}">
+    {{ content }}
+    <div class="gallery-items">
+    {% for galleryimage in page.media.images %}
+
+
+
+           <div class="gallery-image  img-{{galleryimage.filename|replace({'.':'-', '_':'-'})}}">
+            {% if galleryimage.url %}
+            <div class="galleryimg-container">
+                <img src="{{ galleryimage.url }}" >
+            </div>
+            {% endif %}
+            {% if galleryimage.description %}
+                <!-- <p>{{ galleryimage.description }}</p> -->
+            {% endif %}
+            </div>
+    {% endfor %}
+    </div>
+</div>

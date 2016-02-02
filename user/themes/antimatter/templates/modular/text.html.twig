@@ -1,0 +1,17 @@
+<div class="modular-row callout">
+    <div class="callout-container container">
+    {% set image = page.media.images|first %}
+    {% set imagelink = page.header.image_link %}
+    {% if imagelink %}
+    		<a href="{{ page.header.image_link }}" target="_blank">
+    {% endif %}
+    {% if image %}
+        {{ image.cropResize(400,400).html('','','align-'~page.header.image_align) }}
+    {% endif %}
+    {% if imagelink %}
+    		</a>
+    {% endif %}
+{{ content }}
+    <div class="clearfix"></div>
+    </div>
+</div>
